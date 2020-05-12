@@ -14,4 +14,30 @@
  *= require_self
  */
 
+@import "font-awesome-sprockets";
+@import "font-awesome";
 @import "bootstrap/scss/bootstrap";
+
+.navbar-brand a {
+  color: gray;
+  text-decoration: none;
+}
+
+.nav-item a {
+  color: gray;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.navbar-brand a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  color: black;
+  text-decoration: none;
+}

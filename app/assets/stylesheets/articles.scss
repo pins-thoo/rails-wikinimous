@@ -1,12 +1,28 @@
 // Place all the styles related to the Articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
-.fade.in {
-  opacity: 1;
+// .fade.in {
+//   opacity: 1;
+// }
+
+// .alert-info {
+//   color: blue;
+//   background-color: gray;
+//   border-color: white;
+// }
+
+.container {
+  margin: 80px;
 }
 
-.alert-info {
-  color: blue;
-  background-color: gray;
-  border-color: white;
+p.back {
+  margin: 10px;
+  display: inline-block;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }

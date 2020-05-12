@@ -10,8 +10,10 @@
   </head>
 
   <body>
-    <%= link_to "Wikinimous", articles_path %>
-    <%= link_to "New article", new_article_path %>
+    <nav class="navbar navbar-light bg-light">
+      <li class="navbar-brand"><%= link_to "Wikinimous", articles_path %></li>
+      <li class="nav-item"><%= link_to "New article", new_article_path %></li>
+    </nav>
     <%= yield %>
   </body>
 </html>

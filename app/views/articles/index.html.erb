@@ -1,5 +1,12 @@
-<ul>
-<% @articles.each do |article| %>
-  <li><%= link_to article.title, article_path(article) %> <%= article.content %></li>
-<% end %>
-</ul>
+<div class="container">
+  <div class="card">
+    <ul>
+      <% @articles.each do |article| %>
+      <div class="card-body">
+        <h3 class="card-title"><%= link_to article.title, article_path(article) %></h3>
+        <p class="card-text"><%= article.content %></p>
+      </div>
+      <% end %>
+    </ul>
+  </div>
+</div>
